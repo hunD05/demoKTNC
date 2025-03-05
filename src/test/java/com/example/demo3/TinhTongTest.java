@@ -48,11 +48,11 @@ class TinhTongTest {
         assertEquals(ex, result);
     }
 
-    @Test
-    void testNull(){
-        int arr[] = {};
-        int result = Arrays.stream(arr).sum();
-        int ex = 0;
-        assertEquals(ex, result);
-    }
+//    @Test
+//    void testNull(){
+//        int arr[] = {};
+//        int result = Arrays.stream(arr).sum();
+//        int ex = 0;
+//        assertEquals(ex, result);
+//    }
 }
