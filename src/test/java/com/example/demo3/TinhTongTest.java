@@ -12,7 +12,7 @@ class TinhTongTest {
     void sumArray() {
         int arr[] = {1,2,3,4,5};
         int result = Arrays.stream(arr).sum();
-        int ex = 2;
+        int ex = 15;
         assertEquals(ex, result);
     }
 
@@ -20,7 +20,7 @@ class TinhTongTest {
     void tongAm() {
         int arr[] = {-1,-2,-3,-4,-5};
         int result = Arrays.stream(arr).sum();
-        int ex = 2;
+        int ex = -15;
         assertEquals(ex, result);
     }
 
