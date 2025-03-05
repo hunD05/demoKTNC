@@ -26,7 +26,7 @@ class SinhVienServiceTest {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             sinhVienService.addSinhVien(null);
         });
-        assertEquals("Sinh vien is null", exception.getMessage());
+        assertEquals("sv is null", exception.getMessage());
     }
 
     @Test
